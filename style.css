@@ -36,3 +36,48 @@ ul {
     display: flex;
     gap: 8px;
 }
+
+.content2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    gap: 16px;
+}
+
+.article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.card-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    padding-bottom: 16px;
+    padding-right: 16px;
+}
+
+.other {
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement {
+    
+}
