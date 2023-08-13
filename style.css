@@ -81,6 +81,10 @@ li {
     height: 50px;
 }
 
+.bold {
+    font-weight: 900;
+}
+
 .top-left {
     display: flex;
     justify-content: flex-start;
@@ -91,6 +95,9 @@ li {
 
 input {
     width: 70%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 8px;
 }
 
 .top-right {
@@ -123,6 +130,15 @@ input {
     padding-right: 24px;
     align-items: center;
     gap: 16px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 100px;
 }
 
 .content2 {
